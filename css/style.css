@@ -138,13 +138,20 @@ h2 {
     font-size: 70px;
     line-height: 90px;
     color: #222222;
+    position: relative;
 }
+
+h1{
+    text-align: center;
+}
+
 
 h3 {
     font-family: 'DM Sans';
     font-weight: 400;
     font-size: 30px;
     color: #000000;
+    width: 150px;
 }
 
 h4 {
@@ -170,13 +177,59 @@ h6 {
     font-size: 18px;
     color: #000000;
 }
-
-a{
-    font-family: 'DM Sans',sans-serif;
-    font-size: 18px;
+.w40{
+    width: 40%;
+    float: left;
+    display: inline-block;
+    margin: 40px 25px 40px 60px;
 }
 
+.w40right{
+    width: 40%;
+    float: right;
+    display: inline-block;
+    margin: 40px 20px 60px 80px; 
+}
 
+.w40 li{
+    float: left;
+    margin-right: 25px;
+}
+
+.w40right li{
+    float: left;
+    margin-right: 25px;
+   
+}
+
+ul.top-menu {
+    overflow: auto;
+}
+
+ul.rightMenu {
+    overflow: auto;
+    float: left;
+}
+
+a {
+    text-decoration: none;
+    color: #222222;
+    font-size: 18px;
+    display: inline-block;
+    padding: 3px;
+}
+
+.navbar-logo {
+    position: relative;
+    margin-top: 35px;
+}
+
+.s1 {
+    background-color: #F3FBF8;
+    background-image: url(../img/freshMelientha.png);
+    background-repeat: no-repeat;
+    clear: both;
+}
 
 p {
     font-family: 'DM Sans', sans-serif;
@@ -184,10 +237,7 @@ p {
     font-weight: 400;
     line-height: 30px;
     color: #555555;
-}
-
-.w40{
-    width: 40%;
+    
 }
 
 .top-menu {
@@ -196,30 +246,72 @@ p {
     background: white;
 }
 
-ul.top-menu li{
-    padding: 5px;
-    margin: 5px;
-}
-
-ul.rightMenu li{
-    padding: 5px;
-    margin: 5px;
-}
-
-.navbar-logo {
-    position: relative;
-    left: 50%;
-    top: 50%;
-}
-
 .blocktext {
     font-weight: 400;
     color: #555555;
+    text-align: center;
+}
+
+.btt2 {
+    position: relative;
+    left: 50%;
+}
+
+.s2{
+    width: 1000px;
+    float: left;
+}
+
+.s3{
+    width: 150px;
+    margin-right: 100px;
+    float: right;
+}
+.icons3{
+    float: left;
 }
 
 .post {
     font-size: 14px;
     font-weight: 400;
+}
+
+.SecSectionL{
+    width: 50%;
+    overflow: auto;
+    margin-left: 100px;
+    padding: 0px;
+}
+
+.secLev{
+    margin-left: 100px;
+}
+
+.containerL{
+    clear: both;
+    margin: 0px;
+
+}
+
+img.iconWrap{
+    float: left;
+    margin: 40px 20px;
+
+}
+
+.bg{
+    background-color: #F3FBF8;
+}
+
+.SecSectionR{
+    overflow: auto;
+    width: 40%;
+   float: right;
+}
+
+.secLev{
+    margin-left: 100px;
+    
 }
 
 ul.footer :first-child {
