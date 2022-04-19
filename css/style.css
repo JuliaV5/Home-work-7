@@ -139,6 +139,7 @@ h2 {
     line-height: 90px;
     color: #222222;
     position: relative;
+    margin: 0px;
 }
 
 h1{
@@ -151,7 +152,6 @@ h3 {
     font-weight: 400;
     font-size: 30px;
     color: #000000;
-    width: 150px;
 }
 
 h4 {
@@ -167,6 +167,9 @@ h5 {
     font-weight: 500;
     font-size: 30px;
     line-height: 36px;
+    height: 36px;
+    width: 210px;
+    margin: 0px;
     color: #222222;
 
 }
@@ -175,19 +178,29 @@ h6 {
     font-family: 'DM Sans';
     font-weight: 400;
     font-size: 18px;
+    margin: 0px;
     color: #000000;
 }
+
+.container{
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.clearfix{
+    clear: both;
+}
+
 .w40{
-    width: 40%;
+    width: 400px;
     float: left;
-    display: inline-block;
     margin: 40px 25px 40px 60px;
 }
 
 .w40right{
-    width: 40%;
+    width: 350px;
     float: right;
-    display: inline-block;
     margin: 40px 20px 60px 80px; 
 }
 
@@ -216,18 +229,18 @@ a {
     color: #222222;
     font-size: 18px;
     display: inline-block;
-    padding: 3px;
 }
 
 .navbar-logo {
     position: relative;
-    margin-top: 35px;
+    margin: 35px 100px;
 }
 
 .s1 {
     background-color: #F3FBF8;
     background-image: url(../img/freshMelientha.png);
     background-repeat: no-repeat;
+    background-position:left, 600px  400px;
     clear: both;
 }
 
@@ -258,13 +271,14 @@ p {
 }
 
 .s2{
-    width: 1000px;
+    width: 70%;
+    margin-left: 120px;
     float: left;
 }
 
 .s3{
     width: 150px;
-    margin-right: 100px;
+    margin-right: 250px;
     float: right;
 }
 .icons3{
@@ -276,55 +290,176 @@ p {
     font-weight: 400;
 }
 
-.SecSectionL{
+.SectionL{
     width: 50%;
     overflow: auto;
-    margin-left: 100px;
     padding: 0px;
+    float:left ;
 }
 
-.secLev{
-    margin-left: 100px;
-}
 
 .containerL{
     clear: both;
     margin: 0px;
-
+    float:left;
 }
 
 img.iconWrap{
     float: left;
+    width: 40px;
     margin: 40px 20px;
-
 }
 
 .bg{
     background-color: #F3FBF8;
 }
 
-.SecSectionR{
+.SectionR{
     overflow: auto;
     width: 40%;
    float: right;
 }
 
-.secLev{
-    margin-left: 100px;
+.items1{
+    width: 600px;
+    float: left;
+    margin: 30px;
+}
+
+.container2{
+    clear: both;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.reviews{
+    clear: both;
+}
+
+.container3{
+    clear: both;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.text{
+    clear: both;
+}
+
+.itemButton{
+    float: left;
+    margin-left: 20px;
+}
+
+.itemPicture{
+    float: right;
+}
+
+.reviewLeft{
+    width: 650px;
+    height: 440px;
+    padding-left: 100px;
+    margin: 0px;
+    float: left;
+}
+
+.name{
+    float: left;
+}
+
+.buttons{
+    float: right;
+    margin: 20px 80px 50px 20px;
+}
+
+.reviewsRight{
+    width: 300px;
+    float: right;   
+}
+
+.DownloadApp{
+    overflow: auto;
+    clear: both;
+}
+
+.conteiner4{
+    overflow: auto;
+    clear: both;
+    width: 100%;
+    max-width: 1400px;
+    margin:  150px 100px;
+
+}
+
+.conteiner4Left{
+    width: 20%;
+    overflow: auto;
+    padding: 0px 100px;
+    float: left;
     
+}
+
+.conteiner4Right{
+    overflow: auto;
+    width: 50%;
+    float: right;
+
+}
+
+.footer {
+    clear: both;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #555555;
+}
+
+.footertext{
+    width: 340px;
+    margin-left: 100px;
+    float: left;
+}
+
+ul.footer {
+    overflow: auto;
+    float: right;  
+    text-indent: 150px;
+    line-height: 50px;
+}
+
+li footer{
+  word-spacing: 10px;
+}
+
+a.footer{
+    float: right;
+    overflow: auto;
+    weight: 20px;;
 }
 
 ul.footer :first-child {
     font-size: 24px;
     font-weight: 500;
     line-height: 31px;
+    padding: 0px;
     color: #222222;
 }
 
-.footer {
-    font-family: 'DM Sans', sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 23px;
-    color: #555555;
+
+.iconsFooter{
+    
+    padding: 0px;
+    margin: 0px;
+    overflow: auto;
+}
+
+div.footerblock{
+    overflow: auto;
+    float:left;
+}
+.mail{
+    height: 50px;
 }
